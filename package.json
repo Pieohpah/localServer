@@ -1,0 +1,16 @@
+{
+  "name": "localserver",
+  "version": "1.0.0",
+  "description": "A low weight development web server, connect a folder and get http and https access. Simular to Pythons SimpleHTTPServer",
+  "author": "Peter Herber",
+  "license": "ISC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pem": "^1.14.6",
+    "yargs": "^17.6.0"
+  }
+}

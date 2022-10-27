@@ -1,9 +1,12 @@
 {
   "name": "localserver",
   "version": "1.0.0",
-  "description": "A low weight development web server, connect a folder and get http and https access. Simular to Pythons SimpleHTTPServer",
+  "description": "A light weight development web server, connect a folder and get http and https access. Simular to Pythons SimpleHTTPServer",
   "author": "Peter Herber",
   "license": "ISC",
+  "bin" : {
+    "localserver" : "server.js"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
